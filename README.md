@@ -68,6 +68,7 @@ Used the references and tutorials from:
 - [W3 Schools](https://www.w3schools.com/mysql/default.asp)
 - [webpack documentation](https://webpack.js.org/concepts/)
 - [idb documentation](https://www.npmjs.com/package/idb)
+- [Workbox documentation](https://developer.chrome.com/docs/workbox)
 
 <a name="test"></a>
 
