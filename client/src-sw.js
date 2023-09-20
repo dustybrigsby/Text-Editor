@@ -27,10 +27,14 @@ warmStrategyCache({
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
 // TODO: Implement asset caching
+// https://developer.mozilla.org/en-US/docs/Web/API/Request
 registerRoute(
   ({ request }) => {
 
+    // which filetypes to include in caching
+
   },
+  // https://developer.chrome.com/docs/workbox/modules/workbox-strategies/#stale-while-revalidate
   new StaleWhileRevalidate({
     cacheName: 'asset-cache',
     plugins: [

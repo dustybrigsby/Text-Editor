@@ -64,7 +64,8 @@ Used the references and tutorials from:
 
 - Multiple activities from 19-PWA class lessons, zoom recordings and files.
 -
-- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [MDN Web Docs: Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [MDN Web Docs: Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Request)
 - [W3 Schools](https://www.w3schools.com/mysql/default.asp)
 - [webpack documentation](https://webpack.js.org/concepts/)
 - [idb documentation](https://www.npmjs.com/package/idb)
