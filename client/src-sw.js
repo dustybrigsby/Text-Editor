@@ -30,9 +30,11 @@ registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 // https://developer.mozilla.org/en-US/docs/Web/API/Request
 registerRoute(
   ({ request }) => {
-
-    // which filetypes to include in caching
-
+    return (
+      request.destination === 'style' ||
+      request.destination === 'script' ||
+      request.destination === 'worker'
+    );
   },
   // https://developer.chrome.com/docs/workbox/modules/workbox-strategies/#stale-while-revalidate
   new StaleWhileRevalidate({
