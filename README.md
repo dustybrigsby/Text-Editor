@@ -2,10 +2,6 @@
 
 EdX Coding Bootcamp - Module 19 - PWA Challenge
 
-# Social-Network-API
-
-EdX Coding Bootcamp - Module 18 - NoSQL Challenge
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
